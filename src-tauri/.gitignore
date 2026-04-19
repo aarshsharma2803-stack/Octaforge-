@@ -1,0 +1,54 @@
+# =========================
+# Secrets / Env files
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# Node / React
+# =========================
+node_modules/
+dist/
+build/
+.next/
+npm-debug.log*
+yarn-error.log*
+
+# =========================
+# Python / FastAPI
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# =========================
+# Tauri / Rust
+# =========================
+src-tauri/target/
+src-tauri/.cargo/
+Cargo.lock
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Misc
+# =========================
+*.key
+*.pem
+secrets.json
