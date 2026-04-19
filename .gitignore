@@ -35,3 +35,6 @@ src-tauri/target/
 *.njsproj
 *.sln
 *.sw?
+
+# Local docs
+HOW_IT_WORKS.md
